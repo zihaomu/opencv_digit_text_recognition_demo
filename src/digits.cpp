@@ -148,7 +148,7 @@ int main()
 			fps_string += string_fps;
 			putText(image, fps_string, Point(5, 20), FONT_HERSHEY_SIMPLEX, 0.5, Scalar(128, 255, 128));
 	
-			printf_s("time = %gms\n", cvtm.getTimeMilli());
+			printf("time = %gms\n", cvtm.getTimeMilli());
 			imshow("result", image);
 			imshow("raw", raw_image);
 			waitKey(30);
