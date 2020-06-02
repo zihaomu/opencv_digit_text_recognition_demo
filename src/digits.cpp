@@ -52,7 +52,7 @@ void predictor(dnn::Net net, Mat &roi, int &class_id, double &probability) {
 int main()
 {
 	// load model 
-	string modelTxt = "./lenet3.prototxt";
+	string modelTxt = "./lenet.prototxt";
 	string modelBin = "./lenet.caffemodel";
 
 	dnn::Net net;
