@@ -7,6 +7,10 @@
 
  hardware：
  `cpu: i5-8300H 8-core + 16G RAM`
+ 
+model:
+lenet.caffemodel
+lenet.prototxt
 
 DEMO:
 ![image](./demo/demo.gif)
